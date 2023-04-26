@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from behave import given, when, then
 
 
-@given("Open  cureskin homepage")
+@given("Open cureskin homepage")
 def open_cureskin(context):
     context.app.main_page.open_main()
 

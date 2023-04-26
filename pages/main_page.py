@@ -10,18 +10,9 @@ class MainPage(Page):
     SHOP_ALL = (By.CSS_SELECTOR, "nav.cure_header a[href='/collections/all']")
     PR_PAGES = (By.CSS_SELECTOR, "ul.pagination__list li")
     previous_pages = 0
-    TERMS_OF_SERVICE = (By.CSS_SELECTOR, "li a[href*='terms-of-service']")
-    REFUND_POLICY = (By.CSS_SELECTOR, "li a[href*='refund-policy']")
-    PRIVACY_POLICY = (By.CSS_SELECTOR, "li a[href*='privacy-policy']")
-    SHIPPING_POLICY = (By.CSS_SELECTOR, "li a[href*='shipping-policy']")
     FOOTER_LN = (By.XPATH, "//footer-accordion[3]//a")
     HEADER = (By.XPATH, "//div//h1")
     LOGO = (By.CSS_SELECTOR, "a.header__heading-link.focus-inset")
-
-    # TITLE1 = (By.XPATH, "//div//h1[text()='Terms of service']")
-    # TITLE2 = (By.XPATH, "//div//h1[text()='Refund policy']")
-    # TITLE3 = (By.XPATH, "//div//h1[text()='Privacy policy']")
-    # TITLE4 = (By.XPATH, "//div//h1[text()='Shipping policy']")
 
     def open_main(self):
         self.open_url("https://shop.cureskin.com/")
