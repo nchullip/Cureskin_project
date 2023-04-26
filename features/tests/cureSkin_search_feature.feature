@@ -20,6 +20,16 @@ Feature: CureSkin Search Page feature
     Then Verify that number of products changes
     And Verify that products displayed are within the Price filter
 
+  Scenario: Verify Footer Links
+    Given Open  cureskin homepage
+    Then Identify the footer links: Terms of Service, Refund Policy, Privacy Policy, shipping policy and Verify each link navigates to correct pages
+
+
+
+
+
+
+
 
 
 
