@@ -11,7 +11,7 @@ def browser_init(context, test_name):
     """
     :param context: Behave context
     """
-    s = Service('C:\\Users\\vsupe\QA\\Automation\\python-selenium-automation\\chromedriver')
+    s = Service('chromedriver.exe')
     # context.driver = webdriver.Chrome(service=s)
 
     # options = Options()
